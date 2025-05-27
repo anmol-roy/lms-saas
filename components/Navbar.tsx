@@ -6,7 +6,7 @@ import { MobileMenu } from "./MobileMenu";
 export const Navbar = () => {
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
-      <div className="container flex items-center justify-between h-16 px-4 sm:px-8">
+      <div className="container flex items-center justify-between h-16 px-8 sm:px-8">
         <Link href="/" className="flex items-center gap-2.5">
           <div className="relative w-10 h-10">
             <Image
@@ -16,7 +16,7 @@ export const Navbar = () => {
               className="rounded-full object-contain"
             />
           </div>
-          <span className="text-lg font-semibold hidden sm:inline">YourBrand</span>
+          {/* <span className="text-lg font-semibold hidden sm:inline">YourBrand</span> */}
         </Link>
 
         <div className="flex items-center gap-6">
